@@ -132,7 +132,7 @@ echo "___@@@ Setup moxy magento admin password..."
 mysql -u root -p$MYSQL_PASSWD moxy_magento -e "UPDATE admin_user SET password=CONCAT(MD5('123admin12345'), ':123') WHERE username='admin'";
 echo " "
 echo "___@@@ Setup bilna magento admin password..."
-mysql -u root -p$MYSQL_PASSWD bilna_magento -e "UPDATE admin_user SET password=CONCAT(MD5('123admin12345'), ':123') WHERE username='taufik'";
+mysql -u root -p$MYSQL_PASSWD bilna_magento -e "UPDATE admin_user SET password=CONCAT(MD5('123admin12345'), ':123') WHERE username='eka'";
 
 # Setup nginx
 echo " "
