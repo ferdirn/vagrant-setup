@@ -1,0 +1,5 @@
+.vagrant
+src/
+provisions/boxes/
+provisions/db/
+whoosh/
